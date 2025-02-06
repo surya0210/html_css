@@ -1,0 +1,19 @@
+.thumbnail{
+    width:100px;
+    height:100px;
+    border-radius:100px;
+    object-fit:cover;
+    object-position: center;
+
+}
+
+.search-bar{
+    height:30px;
+    font-size:20px;
+    border-width:2px;
+    border-style:solid;
+    border-color: red;
+    margin-left:12px;
+    
+
+}
