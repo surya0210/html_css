@@ -1,142 +1,170 @@
-<style>
-    .box1-name{
-        display: block;
-        margin-bottom:5px;
-    }
-    .chatbot-text{
+<!-- <style>
+    .div-block{
+        height:200px;
         width:200px;
-        display: inline-block;
-        vertical-align: middle;
+        background-color: green;
+        border-radius:100px;
     }
-    .google-logo{
-
-        display: block;
-        margin-left:600px;
-        margin-bottom:10px;
-        margin-top:200px;
-        width:200px;
-    }
-    .google-input{
-        width:500px;
-        border:none;
-        padding-top:12px;
-        padding-bottom:12px;
-        padding-left:16px;
-        margin-left:450px;
-        padding-right:16px;
-        font-size:16px;
-        border-radius:30px;
-        box-shadow:0px 1px 10px rgba(0,0,0,.2); 
-    }
-
-
-    .signup-input{
-        border-width: 1px;
+    .div-block1{
         border-style: solid;
-        border-color: rgb(200, 200, 200);
+        border-width: 1px;
+        width:300px;
+        padding-left: 15px;
+        padding-bottom: 20px;
+    }
+
+    .div-p{
+        font-family: Arial;
+    }
+
+</style> -->
+
+<!-- <div class="div-block"></div> -->
+<!-- 
+<div class="div-block1">
+    <p class="div-p">Are you satisified with our service</p>
+    <button>Yes</button>
+    <button>No</button>
+</div> -->
+
+<!-- 
+<style>
+.div-block{
+    background-color: rgb(33,33,33);
+    /* color:white; */
+    width:360px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+p{
+    font-family:Arial;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.p-1{
+    font-weight:bold;
+    margin-bottom: 10px;
+    color: white;
+  font-size: 24px;    
+}
+.subtitle {
+  color: rgb(160, 160, 160);
+}
+
+</style>
+<div class="div-block">
+    <p class="p-1">Install YouTube Music</p>
+    <p class="subtitle">Add Youtube Music to your desktop for quick and easy access</p>
+</div> -->
+
+
+<style>
+    div{
+        box-shadow:0px 0px 6px rgb(0,0,0.3);
+        /* border-color: red;
+        border-style: solid; */
+        width:450px;
         padding-top:12px;
+        padding-left:12px;
         padding-bottom:12px;
+        border-radius: 6px;
+        padding-right:12px;
+
+        
+    }
+    img{
+     width:50px;
+     border-radius: 25px;
+     height:50px;
+     vertical-align: middle;
+     object-fit: cover;
+     margin-right: 5px;
+
+    }
+    input{
+        font-size:18px;
+        vertical-align: middle;
+        border:none;
+        width:300px;
+    }
+
+    button{
+        background-color: rgba(29, 155, 240);
+        color:white;
+        border:none;
+        padding-top:8px;
+        padding-bottom:8px;
         padding-left:16px;
         padding-right:16px;
+        border-radius:30px;
+        font-weight:bold;
         font-size:16px;
-        border-radius:8px;
+        vertical-align: middle;
+        cursor:pointer;
+
+        
+    }
+</style>
+<div>
+    <img class="cat-image" src="cat.jpg">
+    <input class="whats-happening" placeholder="What's happening?">
+    <button>Tweet</button>
+</div>
+<!-- 
+<style>
+    div{
+        width:200px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    }
+    img{
+        width:200px;
+        height:200px;
         margin-bottom:12px;
     }
 
-    .signup-name{
-        width:148px;
+    p{
+        font-family:Arial;
+        margin-top: 0;
+        margin-bottom: 0;
     }
-    .signup-email{
-        display: block;
-        width:300px;
+
+    .title{
+        font-weight:bold;
+        font-size: 18px;
+        margin-left: 8px;
+        margin-bottom: 4px;
     }
-    
-    .signup-button{
-        background-color: rgb(47, 127, 231);
+    .mutual{
+
+        color: rgb(100, 100, 100);
+        margin-left: 8px;
+        margin-bottom: 12px;
+    }
+
+    button{
+        background-color: rgb(24, 119, 242);
         color:white;
         border:none;
-        width:300px;
-        padding-top:14px;
-        padding-bottom:14px;
-        font-size:18px;
-        font-weight: bold;
-        border-radius:8px;
-    }
-
-    .uber-text{
-        /* font-weight:bold; */
-        font-family:Arial;
-        font-size:40px;
-        margin-bottom:25px;
-    }
-
-    .uber-input{
-        display:block;
-        background-color: rgb(240, 240, 240);
-        padding-top:15px;
-        padding-bottom:15px;
+        padding-top:10px;
+        padding-bottom:10px;        
         padding-left:20px;
         padding-right:20px;
+        border-radius:4px;
         font-size:16px;
-        border:none;
-        width:400px;  
+        margin-left:8px;
         margin-bottom:10px;
-        /* border-radius:2px;   */
-    } 
-
-    .destination{
-        margin-bottom:25px;
     }
 
-    .request-button{
-        background-color: black;
-        color:white;
-        padding-top:15px;
-        padding-bottom:15px;
-        padding-left:25px;
-        padding-right:25px;
-        border:none;
-        font-size: 16px;    
-        margin-right: 10px;
-    }
 
-    .schedule-button{
-        background-color: rgb(240, 240, 240);
-        padding-top:15px;
-        padding-bottom:15px;
-        padding-left:25px;
-        padding-right:25px;
-        border:none;
-        font-size: 16px;    
-    }
 </style>
 
-
-<!-- <input class ="box1-name" placeholder="Name">
-<input class="box1-email" placeholder="Email">  -->
-
-<!-- <p class="chatbot-text">Thanks for chatting with our customer support.Would you like to take our quick survey?</p>
-<button class="yes-no-button">Yes</button>
-<button class="yes-no-button">No</button> -->
-
+<div>
+    <img src="cat.jpg">
+    <p class="title">Oliver</p>
+    <p class="mutual">2 mututal friends</p>
+    <button >Add Friend</button>
+</div> -->
 
 
-
-
-
-<!-- <img class="google-logo" src="google-logo.png">
-<input  class="google-input" type="text" placeholder="Search Google or type a URL"> -->
-
-
-<!-- <input class="signup-name signup-input" placeholder="First Name">
-<input class="signup-name signup-input" placeholder="Last Name">
-<input class="signup-email signup-input" placeholder="Email">
-<button class="signup-button">Sign Up</button> -->
-
-<p class="uber-text">Request a ride Now</p>
-
-<input class="uber-input" placeholder="Enter pickup location">
-<input class="uber-input destination" placeholder="Enter destination">
-
-<button class="uber-button request-button">Request now</button>
-<button class="uber-button schedule-button">Schedule for later</button>
