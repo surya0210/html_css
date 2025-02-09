@@ -1,0 +1,89 @@
+<!-- <div style="display:flex;
+flex-direction: row;">
+
+    <div style="background-color: lightblue;
+    width:200px;">200px
+    </div>
+    <div style="background-color:lightpink;width:75px;">
+        75px
+    </div>
+</div> -->
+
+
+<!-- <div style="display:flex;flex-direction: row;">
+    <div style="background-color: lightblue;width:50px;">
+        item1
+    </div>
+    <div style="background-color: lightpink;flex:1;">
+        item2
+    </div>
+    <div style="background-color: lightblue;width:75px;">
+        item3
+
+    </div>
+</div> -->
+
+
+<!-- <div style="display:flex;flex-direction:row;justify-content: space-between;">
+    <div style="background-color: lightblue;">item1</div>
+    <div style="background-color: lightpink;">item2</div>
+    <div style="background-color: lightblue;">item3</div>
+    <div style="background-color: lightpink;">item4</div>
+</div> -->
+
+
+
+<!-- <div style="display:flex;flex-direction:row;border-width:2px;height:50px;border-style:solid;justify-content:space-between;
+align-items: center;">
+    <div style="background-color: lightpink";>item 1</div>
+    <div style="background-color: lightpink">item 2</div>
+</div> -->
+
+<style>
+    .container{
+        width:300px;
+        border-width:1px;
+        border-style:solid;
+    }
+    .flex-box{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-left:10px;
+        margin-right:20px;
+    }
+    .number-box{
+        /* height:20px; */
+        background-color: rgb(49, 109, 245);
+        color:white;
+        padding-left:10px;
+        padding-right:10px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        border-radius: 20px;
+        font-size: 14px;
+        font-weight: bold;
+    }
+</style>
+
+<div class="container">
+    <div class="flex-box">
+        <p>
+            Home
+        </p>
+        <div class="number-box">14</div>
+    </div>
+    <div class="flex-box">
+        <p>
+            Notifications
+        </p>
+        <div class="number-box">3</div>
+    </div>
+    <div class="flex-box">
+        <p>
+            Messages
+        </p>
+        <div class="number-box">5</div>
+    </div>
+</div>
