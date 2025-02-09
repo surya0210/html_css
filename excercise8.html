@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+
+<head>
+
+</head>
+
+<body>
+    <!-- <div style="display:grid;
+    grid-template-columns: 200px 75px;">
+        <div style="background-color: lightblue;">
+            <p>200px</p>
+        </div>
+        <div style="background-color: lightpink;">
+            <p>75px</p>
+        </div>
+    </div>
+
+
+    <div style="display:grid;
+                margin-top:30px;
+                grid-template-columns: 50px 1fr 75px;" >
+                <div style="background-color: lightblue;">col1</div>
+                <div style="background-color: lightpink;">col2</div>
+                <div style="background-color: lightblue;">col3</div>
+    </div>
+
+
+
+    <div style="display:grid;
+                margin-top:30px;
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+                column-gap:20px;
+                row-gap:10px;" >
+                <div style="background-color: lightpink;">col1</div>
+                <div style="background-color: lightpink;">col2</div>
+                <div style="background-color: lightpink;">col3</div>
+                <div style="background-color: lightpink;">col2</div>
+                <div style="background-color: lightpink;">col1</div>
+                <div style="background-color: lightpink;">col2</div>
+                <div style="background-color: lightpink;">col3</div>
+                <div style="background-color: lightpink;">col2</div>
+    </div> -->
+<style>
+
+    p{
+        font-family:Arial;
+        margin-top:0px;
+        margin-bottom:0px;
+    }
+    .profile{
+       border:none;
+       box-shadow:0px 0px 5px rgb(0,0,0,0.3); 
+    }
+
+    .thumbnail{
+        width:100%;
+        height:200px;
+        object-fit: center;
+        margin-bottom: 12px;
+    }
+
+    .name{
+        margin-left: 8px;
+        margin-bottom: 5px;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .mutual-friends{
+        display:grid;
+        grid-template-columns: 35px 1fr;
+        align-items: center;
+        margin-left:8px;
+        margin-bottom:10px;
+    }
+
+    .icon{
+        height:28px;
+        width:28px;
+        border-radius:14px;
+        vertical-align: middle;
+        /* margin-right: 20px; */
+    }
+
+    button{
+        background-color:  rgb(24, 119, 242);
+        border:none;
+        padding-top:10px;
+        padding-bottom:10px;
+        padding-right:20px;
+        padding-left:20px;
+        margin-left:8px;
+        margin-bottom:10px;
+        color:white;
+        border-radius: 4px;
+        font-size: 16px;
+    }
+
+
+</style>
+
+    <div style="display:grid;
+                grid-template-columns: 200px 200px 200px;
+                column-gap:20px;">
+
+        <div class="profile"> 
+            <img class="thumbnail" src="cat.jpg">
+            <p class="name">Oliver</p>
+            <div class="mutual-friends">
+                <img class="icon" src="cat.jpg">
+                <p style="color:rgb(100,100,100)"> 2 mutual friends</p>
+            </div>
+            <button>Add friend</button>
+        </div>
+        
+
+    </div>
+
+
+    
+
+
+</body>
