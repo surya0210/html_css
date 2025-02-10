@@ -1,0 +1,144 @@
+<!-- <style>
+    .container{
+        display:flex;
+        flex-direction: row;
+        height:50px;
+    }
+
+    .container1{
+        background-color: lightpink;
+        width:100px;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .container2{
+        background-color: lightblue;
+        width:200px;
+        display:flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .row2{
+        background-color: black;
+        color:white;
+    }
+</style>
+
+
+<div class="container">
+    <div class="container1">
+    </div>
+    <div class="container2">
+        <div>
+            <div>row1</div>
+            <div class="row2">row2</div>
+        </div>
+        <div class="row2">row2</div>
+    </div>
+</div> -->
+<!DOCTYPE html>
+<head>
+    <style>
+        div {
+  font-family: Arial;
+    }
+    .container {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+        width: 400px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+        border-radius: 4px;
+        margin-top: 20px;
+        margin-left: 20px;
+        }
+        .inbox-label {
+        font-size: 14px;
+        color: rgb(120, 120, 120);
+        margin-bottom: 20px;
+        }
+        .msg-card{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        
+        .img-div{
+            margin-right: 10px;
+
+        }
+
+        .img{
+            width: 50px;
+            height: 50px;
+            object-fit: cover;
+            border-radius: 25px;
+        }
+
+        .text-grid{
+            flex: 1;
+        }
+        .name-time-grid{
+            display:flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 3px;
+        }
+
+        .name-para{
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        .time-para{
+            font-size: 14px;
+            color: rgb(120, 120, 120);
+        }
+        .description2-para{
+            color: rgb(120, 120, 120);
+        }
+
+        .description-para{
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        
+
+        
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="inbox-label">ALL INBOXES</div>
+        <div class="">
+            <div class="msg-card">
+                <div class="img-div">
+                    <img class="img"src="cat.jpg">
+                </div>
+                <div class="text-grid">
+                    <div class="name-time-grid">
+                        <div class="name-para"> Chewy Promotions</div>
+                        <div class="time-para">4:58 PM</div>
+                    </div>
+                    <div class="description-para">
+                        Biggest Sale of the year!
+                    </div>
+                    <div class="description2-para">
+                        Hey there! We're writing to tell you about our..
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+</body>
