@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<head>
+<style>
+    body{
+        height:3000px;
+    }
+    .bottom-right{
+        background-color: black;
+        width:90px;
+        color:white;
+        position:fixed;
+        bottom: 20px;
+        right: 20px;
+    }
+    .cover{
+        background-color: black;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+
+    .side-bar{
+        position:fixed;
+        top:0;
+        right:0;
+        background-color: green;
+        color:white;
+        height:1000px;
+    }
+
+    .overlay{
+        background-color: rgba(0, 0, 0, 0.5);
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .modal {
+  background-color: white;
+  width: 300px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 5px;
+}
+
+.modal-title {
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 12px;
+}
+
+.modal-content {
+  font-family: Arial;
+  margin-bottom: 12px;
+}
+body {
+  height: 3000px;
+}
+
+div {
+  font-family: Arial;
+}
+
+
+.sidebar-1{
+    background-color: rgb(33, 33, 33);
+    position:fixed;
+    top:0;
+    left:0;
+    bottom:0;
+    padding-top:10px;
+    padding-left:10px;
+    padding-right:10px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.name {
+  color: white;
+  font-size: 14px;
+}
+
+.create-new {
+  color: rgb(150, 150, 150);
+  font-size: 25px;
+}
+
+.channel {
+  color: rgb(150, 150, 150);
+  margin-bottom: 16px;
+}
+.sidebar-2 {
+  background-color: rgb(55, 55, 55);
+  position: fixed;
+  left: 70px;
+  top: 0;
+  bottom: 0;
+  width: 150px;
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.image {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 25px;
+  margin-bottom: 10px;
+}
+
+
+</style>
+
+</head>
+
+<body>
+    <!-- <div class="side-bar">
+        right side bar
+    </div>
+    <div class="overlay">
+        <div class="modal">
+            <div class="modal-title">
+                Modal Title
+            </div>
+            <div class="modal-content">
+                This is modal
+            </div>
+            <button>
+                Close
+            </button>
+        </div>
+    </div> -->
+
+    <div class="sidebar-1">
+        <div class="sidebar-images">
+            <img class="image" src="dog.jpg">
+        </div>
+        <div class="sidebar-images">
+            <img  class="image" src="dog.jpg">
+        </div>
+        <div class="sidebar-images">
+            <img  class="image" src="dog.jpg">
+        </div>
+
+    </div>
+    <div class="sidebar-2">
+        <div class="header">
+            <div class="name">INFO</div>
+            <div class="create-new">+</div>
+          </div>
+          <div class="channel"># new-videos</div>
+          <div class="channel"># updates</div>
+          <div class="channel"># faq</div>
+        
+    </div>
+</body>
